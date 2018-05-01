@@ -1,0 +1,7 @@
+<h1>Tous les gossips ici</h1>
+
+	<% @b.each do |gossip| %>
+		<p> <%=gossip.anonymous_author %> dit: </br>"<%=gossip.content%>" <a href="#">Edit</a></p>
+	<% end %>
+
+

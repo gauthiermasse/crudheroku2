@@ -6,6 +6,7 @@ source 'https://rubygems.org'
  
 gem 'bootsnap'
 gem 'rake'
+gem 'faker'
 
 gem 'rails'
 gem 'puma'
